@@ -5,7 +5,7 @@
 <title>Forgot Password</title>
 </head>
 <body>
-<form action="bridgelabz" method="post">
+<form action="StudentServlet" method="post">
 <input type="hidden" name="action" value="forgotpassword">
 <table align="center" border="1"cellpadding="5" cellspacing="5 style=width:40%" bgcolor="thistle">
 
