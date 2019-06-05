@@ -6,21 +6,12 @@
   <display-name>Archetype Created Web Application</display-name>
   <servlet>
   	<servlet-name>StudentServlet</servlet-name>
-  	<display-name>StudentServlet</display-name>
-  	<description></description>
   	<servlet-class>StudentServlet</servlet-class>
   </servlet>
   
   
   <servlet-mapping>
   	<servlet-name>StudentServlet</servlet-name>
-  	<url-pattern>/bridgelabz</url-pattern>
+  	<url-pattern>/*.html</url-pattern>
   </servlet-mapping>
-  <session-config>
-  <session-timeout>
-  30
-  
-  </session-timeout>
-  
-  </session-config>
 </web-app>
